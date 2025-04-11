@@ -1,0 +1,49 @@
+body {
+    border: 3px;
+    margin: 3px;
+}
+
+nav {
+    width: 100vw; 
+    background-color: rgb(0, 255, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    border: 1px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.carro {
+    margin: 20px 20px 20px 20px;
+    width: 32px;
+    height: 32px;
+}
+
+.carro:hover {
+    cursor: pointer;
+}
+
+.formulario {
+    text-align: center;
+    background: linear-gradient(to bottom,#a3430c,#fff);
+}
+
+.button {
+    cursor: pointer;
+    background-color: green;
+    color: black;
+    padding: 10px 24px;
+    border-radius: 14px;
+    bottom: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+}
